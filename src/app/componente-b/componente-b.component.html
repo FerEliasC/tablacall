@@ -1,0 +1,62 @@
+<!-- componente-b.component.html -->
+<div class="cont-table" *ngIf="selectedRow">
+  <table class="table table-striped rounded table-hover">
+    <thead>
+      <tr>
+        <th  scope="col">No O.C</th>
+        <th  scope="col">Proveedor</th>
+        <th  scope="col">Fecha</th>
+        <th  scope="col">Total</th>
+        <th  scope="col">Estatus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="none">{{ selectedRow.oc }}</td>
+        <td class="none">{{ selectedRow.proveedor }}</td>
+        <td class="none">{{ selectedRow.fecha }}</td>
+        <td class="none">{{ selectedRow.total }}</td>
+        <td class="none">{{ selectedRow.estatus }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="cont-table">
+  <table class="table  table-striped rounded table-hover">
+    <thead>
+      <tr>
+        <th  scope="col">Línea</th>
+        <th  scope="col">Descripción</th>
+        <th  scope="col">Cantidad</th>
+        <th  scope="col">Unidad</th>
+        <th  scope="col">Precio</th>
+        <th  scope="col">Estatus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="none">0010</td>
+        <td class="none">Ligas</td>
+        <td class="none">100</td>
+        <td class="none">PZ</td>
+        <td class="none">18.00</td>
+        <td class="none">1800.00</td>
+      </tr>
+      <tr>
+        <td class="none">0010</td>
+        <td class="none">Ligas</td>
+        <td class="none">100</td>
+        <td class="none">PZ</td>
+        <td class="none">18.00</td>
+        <td class="none">1800.00</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+
+
+
+
